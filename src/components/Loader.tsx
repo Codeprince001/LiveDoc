@@ -1,10 +1,11 @@
 import Image from "next/image"
+import loader from "../../public/assets/icons/loader.svg"
 
 const Loader = () => {
   return (
     <div className="loader">
       <Image
-        src="../../public/assets/icons/loader.svg"
+        src={loader}
         alt="loader"
         width={32}
         height={32}
